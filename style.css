@@ -1,0 +1,157 @@
+body{
+    background: linear-gradient(to right, #d4e4f3, #dadad8);
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 20vh;
+    background-color: #505c68;
+    width: 35vw;
+    height: 44vh;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px #5b6a7d;
+    
+    
+    
+}
+
+.ict{
+    background-color: #363e49;
+    margin: 0;
+    padding-top: 7px;
+    width: 10%;
+    text-align: center;
+
+}
+#topright{
+    border-top-right-radius: 20px;
+}
+#topdiv{
+    background-color: #374353;
+    width: 85%;
+    border-top-left-radius: 20px;
+}
+.top{
+    color: white;
+}
+
+
+.display #screen{
+    color: white ;
+    margin: 4% 0% 0% 0% ;
+    width: 98%;
+    height: 70px;
+    border: none;
+    padding: 0% 2% 0% 0%;
+    text-align: right;
+    background-color: #505c68;
+    font-size: 50px;
+}
+
+
+
+.btnl{
+    background-color: #5b6a7d;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 91px;
+    height: 57px;
+    
+}
+
+#eq{
+    width: 186px;
+}
+
+.btns .lg{
+    background-color: #5b6a7d;
+}
+
+.top{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 35px;
+}
+
+.butdiv{
+    height: 70%;
+    
+    
+}
+
+.row{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.butdiv,
+#botrow{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.rowbutdivl{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 100%;
+}
+
+.rowbutdivr{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: 100%;
+}
+
+.btn{
+    border: 5px solid white;
+    color: white;
+    height: 100%;
+    width: 25%;
+    border: none;
+    margin: 0;
+}
+
+.btnr{
+    color: white;
+    height: 100%;
+    width: 33.3%;
+    border: none;
+    margin: 0;
+}
+
+#dotbut{
+    border-bottom-left-radius: 20px;
+}
+
+#eqbtn{
+    width: 50%;
+    background: linear-gradient(to right, #fd3d6a, #fca82c);
+}
+
+.lg{
+    background-color: #5b6a7d;
+}
+
+#sqrtbtn{
+    border-bottom-right-radius: 20px;
+}
+
+.mg{
+    background-color: #374353;
+}
+
+.dg{
+    background-color: #333a42;
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <span class="ict" id="topright">X</span>
+            <span class="ict">&#x25A1;</span>
+            <span class="ict">_</span>
+            
+            <div id="topdiv"></div>
+        </div>
+
+
+        <div class="display">
+            <input id="screen" type="text" placeholder="0">
+        </div>
+
+        <div class="butdiv">
+            <div class="row">
+                <div class="rowbutdivl">
+                    <button class="btn mg">CE</button>
+                    <button class="btn mg">C</button>
+                    <button class="btn mg">BS</button>
+                    <button class="btn mg">÷</button>
+                </div>
+                <div class="rowbutdivr">
+                    <button class="btnr dg">inv</button>
+                    <button class="btnr dg">Rad</button>
+                    <button class="btnr dg">Sin</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="rowbutdivl">
+                    <button class="btn lg" >7</button>
+                    <button class="btn lg" >8</button>
+                    <button class="btn lg" >9</button>
+                    <button class="btn mg">x</button>
+                </div>
+                <div class="rowbutdivr">
+                    <button class="btnr dg">Cos</button>
+                    <button class="btnr dg">Tan</button>
+                    <button class="btnr dg">%</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="rowbutdivl">
+                    <button class="btn lg" >4</button>
+                    <button class="btn lg" >5</button>
+                    <button class="btn lg" >6</button>
+                    <button class="btn mg">-</button>
+                </div>
+                <div class="rowbutdivr">
+                    <button class="btnr dg">in</button>
+                    <button class="btnr dg">Log</button>
+                    <button class="btnr dg">!</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="rowbutdivl">
+                    <button class="btn lg" >1</button>
+                    <button class="btn lg" >2</button>
+                    <button class="btn lg" >3</button>
+                    <button class="btn mg">+</button>
+                </div>
+                <div class="rowbutdivr">
+                    <button class="btnr dg">^</button>
+                    <button class="btnr dg">pi</button>
+                    <button class="btnr dg">e</button>
+                </div>
+            </div>
+            <div class="row" id="botrow">
+                <div class="rowbutdivl">
+                    <button class="btn mg" id="dotbut">.</button>
+                    <button class="btn lg">0</button>
+                    <button class="btn" id="eqbtn">=</button>
+                </div>
+                <div class="rowbutdivr">
+                    <button class="btnr dg">&#40;</button>
+                    <button class="btnr dg">&#41;</button>
+                    <button class="btnr dg" id="sqrtbtn">&#8730;</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.jss"></script>
+</body>
+
+</html>
