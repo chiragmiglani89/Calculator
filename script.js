@@ -102,29 +102,57 @@ function sin() {
     if(isNaN( Math.sin(screen.value))){
         screen.value = "Error!"
     }
-    screen.value =  Math.sin(screen.value);
+    else{
+        screen.value =  Math.sin(screen.value);
+    }
 }
 function cos() {
     if(isNaN( Math.cos(screen.value))){
         screen.value = "Error!"
     }
-    screen.value =  Math.cos(screen.value);
+    else{
+        screen.value =  Math.cos(screen.value);
+    }
 }
 function tan() {
-
-    screen.value = Math.tan(screen.value);
+    if(isNaN( Math.tan(screen.value))){
+        screen.value = "Error!"
+    }
+    else{
+        screen.value = Math.tan(screen.value);
+    }
 }
 function pow() {
-    screen.value = Math.pow(screen.value, 2);
+    if(isNaN( Math.pow(screen.value, 2))){
+        screen.value = "Error!"
+    }
+    else{
+        screen.value = Math.pow(screen.value, 2);
+    }
 }
 function sqrt() {
-    screen.value = Math.sqrt(screen.value, 2);
+    if(isNaN( Math.sqrt(screen.value, 2))){
+        screen.value = "Error!"
+    }
+    else{
+        screen.value = Math.sqrt(screen.value, 2);
+    }
 }
 function ln() {
-    screen.value = Math.log(screen.value);
+    if(isNaN( Math.log(screen.value))){
+        screen.value = "Error!"
+    }
+    else{
+        screen.value = Math.log(screen.value);
+    }
 }
 function log10() {
-    screen.value = Math.log10(screen.value);
+    if(isNaN( Math.log10(screen.value))){
+        screen.value = "Error!"
+    }
+    else{
+        screen.value = Math.log10(screen.value);
+    }
 }
 function pi() {
     screen.value = Math.PI;
