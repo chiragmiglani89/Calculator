@@ -55,15 +55,7 @@ body{
 
 
 
-.btnl{
-    background-color: #5b6a7d;
-    border: none;
-    margin: 0;
-    padding: 0;
-    width: 91px;
-    height: 57px;
-    
-}
+
 
 #eq{
     width: 186px;
@@ -112,7 +104,7 @@ body{
     height: 100%;
 }
 
-.btn{
+.btnl{
     border: 5px solid white;
     color: white;
     height: 100%;

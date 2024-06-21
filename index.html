@@ -27,72 +27,72 @@
         <div class="butdiv">
             <div class="row">
                 <div class="rowbutdivl">
-                    <button class="btn mg">CE</button>
-                    <button class="btn mg">C</button>
-                    <button class="btn mg">BS</button>
-                    <button class="btn mg">÷</button>
+                    <button class="btn btnl mg">CE</button>
+                    <button class=" btnl mg" onclick="screen.value = ''">AC</button>
+                    <button class=" btnl mg" onclick="BS()">BS</button>
+                    <button class="btn btnl mg">÷</button>
                 </div>
                 <div class="rowbutdivr">
-                    <button class="btnr dg">inv</button>
-                    <button class="btnr dg">Rad</button>
-                    <button class="btnr dg">Sin</button>
+                    <button class=" btnr dg" onclick="inv()">inv</button>
+                    <button class=" btnr dg" onclick="rad(screen.value)">Rad</button>
+                    <button class=" btnr dg" onclick="sin()">Sin</button>
                 </div>
             </div>
             <div class="row">
                 <div class="rowbutdivl">
-                    <button class="btn lg" >7</button>
-                    <button class="btn lg" >8</button>
-                    <button class="btn lg" >9</button>
-                    <button class="btn mg">x</button>
+                    <button class="btn btnl lg" >7</button>
+                    <button class="btn btnl lg" >8</button>
+                    <button class="btn btnl lg" >9</button>
+                    <button class="btn btnl mg">x</button>
                 </div>
                 <div class="rowbutdivr">
-                    <button class="btnr dg">Cos</button>
-                    <button class="btnr dg">Tan</button>
-                    <button class="btnr dg">%</button>
+                    <button class=" btnr dg" onclick="cos()">Cos</button>
+                    <button class=" btnr dg" onclick="tan()">Tan</button>
+                    <button class="btn btnr dg">%</button>
                 </div>
             </div>
             <div class="row">
                 <div class="rowbutdivl">
-                    <button class="btn lg" >4</button>
-                    <button class="btn lg" >5</button>
-                    <button class="btn lg" >6</button>
-                    <button class="btn mg">-</button>
+                    <button class="btn btnl lg" >4</button>
+                    <button class="btn btnl lg" >5</button>
+                    <button class="btn btnl lg" >6</button>
+                    <button class="btn btnl mg">-</button>
                 </div>
                 <div class="rowbutdivr">
-                    <button class="btnr dg">in</button>
-                    <button class="btnr dg">Log</button>
-                    <button class="btnr dg">!</button>
+                    <button class=" btnr dg" onclick="ln()">ln</button>
+                    <button class=" btnr dg" onclick="log10()">Log</button>
+                    <button class=" btnr dg" onclick="fact()">!</button>
                 </div>
             </div>
             <div class="row">
                 <div class="rowbutdivl">
-                    <button class="btn lg" >1</button>
-                    <button class="btn lg" >2</button>
-                    <button class="btn lg" >3</button>
-                    <button class="btn mg">+</button>
+                    <button class="btn btnl lg" >1</button>
+                    <button class="btn btnl lg" >2</button>
+                    <button class="btn btnl lg" >3</button>
+                    <button class="btn btnl mg">+</button>
                 </div>
                 <div class="rowbutdivr">
-                    <button class="btnr dg">^</button>
-                    <button class="btnr dg">pi</button>
-                    <button class="btnr dg">e</button>
+                    <button class=" btnr dg" onclick="pow()">^</button>
+                    <button class=" btnr dg" onclick="pi()">pi</button>
+                    <button class=" btnr dg" onclick="e()">e</button>
                 </div>
             </div>
             <div class="row" id="botrow">
                 <div class="rowbutdivl">
-                    <button class="btn mg" id="dotbut">.</button>
-                    <button class="btn lg">0</button>
-                    <button class="btn" id="eqbtn">=</button>
+                    <button class="btn btnl mg" id="dotbut">.</button>
+                    <button class="btn btnl lg">0</button>
+                    <button class="btn btnl" id="eqbtn" >=</button>
                 </div>
                 <div class="rowbutdivr">
-                    <button class="btnr dg">&#40;</button>
-                    <button class="btnr dg">&#41;</button>
-                    <button class="btnr dg" id="sqrtbtn">&#8730;</button>
+                    <button class="btn btnr dg">&#40;</button>
+                    <button class="btn btnr dg">&#41;</button>
+                    <button class=" btnr dg" id="sqrtbtn" onclick="sqrt()">&#8730;</button>
                 </div>
             </div>
         </div>
 
     </div>
-    <script src="script.jss"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
